@@ -1,0 +1,15 @@
+**/dist
+**/disc
+**/docs
+**/lib
+**/node_modules
+**/coverage
+**/.idea
+.vscode/
+.jsbeautifyrc
+src/styles/bundle.css
+.npmrc
+yarn.lock
+npm-debug.log
+package-lock.json
+yarn-error.log
