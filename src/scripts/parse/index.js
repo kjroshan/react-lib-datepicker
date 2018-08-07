@@ -66,22 +66,13 @@ export default function parse(dateValue, dateFormat = 'mm/dd/yyyy', locale = 'en
 }
 
 
-//   getMonthNames('de');
-
-//   parse('December/22/1971'); // Error because default format is mm/dd/yyyy
-//   parse('December/22/1972','mmm/dd/yyyy')
-//   parse('22/03/1973','dd/mm/yyyy')
-//   parse('december 23 1974','mmmddyyyy')
-//   parse('märz 20 1975','mmmddyyyy','de')
-//   parse('21 märz 1976','ddmmmyyyy','de')
-//   parse('22/märz/1977','dd/mmm/yyyy','de')
-//   parse('23-märz-1978','dd-mmm-yyyy','de')
-//   parse('23-märz-1986','dd-mmm-yyyy','de')
-
-//   let s = new RegExp('([0-9]{2})(?=\\/|-|\\ |\\.|.)([^\\s(?=\\/|\\-|\\ |\\.|.)])');
-//   s.exec('23-märz-1986')
-//   '23-märz-1986'.replace(new RegExp('([0-9]{2})([\\/|\\-|\\ |\\.|.])*'), '')
-//   s = new RegExp('([^\\/\\-\\ \\.0-9])+', 'mg');
-//   'märz-1986'.match(s)
-//   'märz-1986'.replace(new RegExp('([0-9]{2})([\\/|\\-|\\ |\\.|.])*'), '')
+// parse('December/22/1971'); // Error because default format is mm/dd/yyyy
+// parse('December/22/1972','mmm/dd/yyyy')
+// parse('22/03/1973','dd/mm/yyyy')
+// parse('december 23 1974','mmmddyyyy')
+// parse('märz 20 1975','mmmddyyyy','de')
+// parse('21 märz 1996','ddmmmyyyy','de')
+// parse('11/märz/1988','dd/mmm/yyyy','de')
+// parse('13-märz-1988','dd-mmm-yyyy','de')
+// parse('13-märz 1986','dd-mmm yyyy','de')
 
