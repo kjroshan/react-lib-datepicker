@@ -1,6 +1,6 @@
 {
   "name": "react-lib-datepicker",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple and lightweight datepicker, with several utility functions",
   "scripts": {
     "start": "gulp build"
