@@ -66,6 +66,14 @@
 
       .navigation-previous-double {
         height: 24px;
+        background: $white url("/images/chevron-left-quick.svg") no-repeat 0;
+        background-size: 20px 20px;
+        width: 31px;
+        &:hover {
+          background: $white url("/images/chevron-left-quick-hvr.svg") no-repeat 0;
+          background-size: 20px 20px;
+          width: 31px;
+        }
       }
 
       .navigation-next {
@@ -82,6 +90,14 @@
 
       .navigation-next-double {
         height: 24px;
+        background: $white url("/images/chevron-right-quick.svg") no-repeat 5px;
+        background-size: 20px 20px;
+        width: 31px;
+        &:hover {
+          background: $white url("/images/chevron-right-quick-hvr.svg") no-repeat 5px;
+          background-size: 20px 20px;
+          width: 31px;
+        }
       }
 
       .navigation-label {

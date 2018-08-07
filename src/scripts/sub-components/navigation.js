@@ -94,7 +94,7 @@ class NavigationHeader extends Component {
 
         return (
             <div className={cn('navigation', this.props.className)}>
-                {(!this.props.enableQuickNavigation) ?
+                {(this.props.enableQuickNavigation) ?
                     <div
                         className={cn('navigation-previous-double', this.props.quickPreviousClassName)}
                         onClick={() => { this.handleYearSelection(subYears(date, 10)); }}
@@ -116,7 +116,7 @@ class NavigationHeader extends Component {
                     className={cn('navigation-next', this.props.nextClassName)}
                     onClick={() => { this.handleYearSelection(addYears(date, 1)); }}
                 />
-                {(!this.props.enableQuickNavigation) ?
+                {(this.props.enableQuickNavigation) ?
                     <div
                         className={cn('navigation-next-double', this.props.quickNextClassName)}
                         onClick={() => { this.handleYearSelection(addYears(date, 10)); }}
@@ -135,7 +135,7 @@ class NavigationHeader extends Component {
         const endYear = Math.ceil((currentYear) / 10) * 10;
         return (
             <div className={cn('navigation', this.props.className)}>
-                {(!this.props.enableQuickNavigation) ?
+                {(this.props.enableQuickNavigation) ?
                     <div
                         className={cn('navigation-previous-double', this.props.quickPreviousClassName)}
                         onClick={() => { this.handleYearSelection(subYears(date, 100)); }}
@@ -157,7 +157,7 @@ class NavigationHeader extends Component {
                     className={cn('navigation-next', this.props.nextClassName)}
                     onClick={() => { this.handleYearSelection(addYears(date, 10)); }}
                 />
-                {(!this.props.enableQuickNavigation) ?
+                {(this.props.enableQuickNavigation) ?
                     <div
                         className={cn('navigation-next-double', this.props.quickNextClassName)}
                         onClick={() => { this.handleYearSelection(addYears(date, 100)); }}

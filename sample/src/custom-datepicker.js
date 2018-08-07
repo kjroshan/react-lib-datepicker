@@ -3,6 +3,9 @@
     import React, { Component } from 'react';
     import format from 'date-fns/format';
 
+    import 'react-lib-datepicker/src/styles/bundle.css';
+    
+
     export default class CustomDatepicker extends Component {
         constructor(props) {
             super(props);
@@ -37,6 +40,8 @@
                         dateFormat="DD/MM/YYYY"
                         showDateInput={false}
                         onChange={this.onDateSelect}
+                        quickNextClassName=""
+                        quickPreviousClassName=""
                     />
                 </div>
             );

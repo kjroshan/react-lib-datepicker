@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<svg width="16" height="16" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <title>chevron-right</title>
+ <g class="layer">
+  <title>Layer 1</title>
+  <polygon fill="#333333" id="polygon3750" points="2.54545 5 4.50845 3.037 10.5455 9.074 16.5825 3.037 18.5455 5 10.5455 13" transform="rotate(-90 10.5455 8.0185)"/>
+  <polygon fill="#333333" id="svg_1" points="-2.68185 5.02695 -0.718844 3.06396 5.3182 9.10096 11.3552 3.06396 13.3182 5.02695 5.3182 13.027" transform="rotate(-90 5.31818 8.04546)"/>
+ </g>
+</svg>
